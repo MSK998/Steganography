@@ -1,4 +1,4 @@
-# Stegasaurus
+# Stegosaurus
 A Python image manipulation app to embed messages within the RGB values of an image using a technique called steganography.
 
 Steganography is a technique in which a message can be hidden within another medium, in this case we are hiding the message within pixels, but these messages can be hidden within videos, other text, audio recordings and many more.
