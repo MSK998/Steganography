@@ -193,8 +193,8 @@ class Manager(ScreenManager):
             data += chr(int(binstr, 2))
             if (pixels[-1] % 2 != 0):
                 dmessage = ModalView(size_hint=(None, None), size=(400, 400))
-                messageLabel = Label(text="Message:\n\n" + data, text_size=(dmessage.width - 50, None))
-                dmessage.add_widget(messageLabel)
+                message_label = Label(text="Message:\n\n" + data, text_size=(dmessage.width - 50, None))
+                dmessage.add_widget(message_label)
                 dmessage.open()
                 return data
 
